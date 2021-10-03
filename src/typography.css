@@ -1,5 +1,5 @@
 html {
-    font-size: 8px;
+    /* font-size: 8px; */
     --nimiq-size: 8px;
 
     font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -9,61 +9,61 @@ html {
 }
 
 body {
-    font-size: 2.25rem; /* 18px */
+    font-size: 1.125rem; /* 18px */
 }
 
 .nq-h1,
 .nq-style h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     font-weight: bold;
-    margin: 3rem 0;
+    margin: 1.5rem 0;
 }
 
 .nq-h2,
 .nq-style h2 {
-    font-size: 2.5rem;
+    font-size: 1.125rem;
     line-height: 1.2;
     font-weight: bold;
-    margin: 2.5rem 0;
+    margin: 1.125rem 0;
 }
 
 .nq-h3,
 .nq-style h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.2;
     font-weight: bold;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .nq-text,
 .nq-style p {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.3125;
     color: rgba(31, 35, 72, 0.7); /* Based on Nimiq Blue */
-    margin: 2rem 0;
-}
-
-.nq-text-s {
-    font-size: 1.75rem;
-    line-height: 1.2;
-    font-weight: 600;
     margin: 1rem 0;
 }
 
+.nq-text-s {
+    font-size: 0.875rem !important;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
 .nq-label {
-    font-size: 1.75rem;
+    font-size: 0.875rem;
     line-height: 0.857;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.107em;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     color: rgba(31, 35, 72, 0.7); /* Based on Nimiq Blue */
 }
 
 .nq-notice {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .nq-notice.info {
@@ -98,11 +98,11 @@ body {
 .nq-list,
 .nq-style ul,
 .nq-style ol {
-    font-size: 2rem;
-    margin: 2rem 0;
+    font-size: 1rem;
+    margin: 1rem 0;
 }
 
 .nq-list li,
 .nq-style li {
-    margin: 0.5rem 0;
+    margin: 0.25rem 0;
 }

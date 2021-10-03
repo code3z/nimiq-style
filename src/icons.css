@@ -1,4 +1,6 @@
-.nq-icon {
-    width: 1em;
-    height: 1em;
+.nq-icon, .v-icon {
+    width: 1.25em;
+    height: 1.25em;
+    font-size: 1.25em !important;
+    margin: 5px;
 }
