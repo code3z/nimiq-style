@@ -38,8 +38,8 @@ body {
 .nq-card, .nq-style .v-card {
     max-width: 37rem;
     background: var(--nimiq-card-bg);
-    border-radius: 0.75rem;
-    box-shadow: 0 0.25rem 1.75rem rgba(0, 0, 0, 0.111158);
+    border-radius: 0.75rem !important;
+    box-shadow: 0 0.25rem 1.75rem rgba(0, 0, 0, 0.111158) !important;
     margin: 1rem;
     color: var(--nimiq-blue);
 }

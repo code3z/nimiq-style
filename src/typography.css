@@ -91,7 +91,9 @@ body {
 }
 
 .nq-link:active,
-.nq-link:hover {
+.nq-link:hover,
+.nq-style a:active,
+.nq-style a:hover {
     text-decoration: underline;
 }
 

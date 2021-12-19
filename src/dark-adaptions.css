@@ -28,7 +28,8 @@
 .nq-gold-bg .nq-label,
 .nq-green-bg .nq-label,
 .nq-orange-bg .nq-label,
-.nq-red-bg .nq-label {
+.nq-red-bg .nq-label,
+.nq-style.theme--dark p {
     color: rgba(255, 255, 255, 0.7);
 }
 
